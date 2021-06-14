@@ -3,3 +3,100 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --primary-color: #ffffff;
+  --background-color: #181719;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--primary-color);
+}
+
+.container {
+  height: 100vh;
+}
+
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+/* Typography */
+.navbar-brand {
+  border: solid 1px white;
+  font-family: Crimson Pro;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--primary-color);
+}
+
+.nav-link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--primary-color);
+}
+
+.active {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  border-bottom: 2px solid white;
+}
+
+.page-header {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 61px;
+}
+
+.blurb {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--primary-color);
+}
+
+p a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+p a:hover {
+  color: inherit;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  color: #a9a9a9;
+}
+
+footer p a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  color: inherit;
+}
